@@ -1,0 +1,1122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>well</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- core CSS Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+
+
+    <!-- jQuery (necesarios para Bootstrap JavaScript plugins) -->
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>	
+    <link href="dist/sweetalert2.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+  <script src="dist/sweetalert2.js"></script>
+	<!-- <script src="dist/sweetalert2.all.js"></script> -->
+	<script src="js/codigo.js"></script>
+   
+</head>
+<body>
+	<div class="container">
+	<br>
+		<div class="well">
+			<h2>sweetaler2</h2>
+
+		</div>
+    <header class="site__header island">
+      <div class="wrap">
+       <span id="animationSandbox" style="display: block;"><h1 class="site__title mega">Animate.css</h1></span>
+        <span class="beta subhead">Just-add-water CSS animations</span>
+      </div>
+    </header>
+    <main class="site__content island" role="content">
+      <div class="wrap">
+        <form>
+          <select class="input input--dropdown js--animations">
+            <optgroup label="Attention Seekers">
+              <option value="bounce">bounce</option>
+              <option value="flash">flash</option>
+              <option value="pulse">pulse</option>
+              <option value="rubberBand">rubberBand</option>
+              <option value="shake">shake</option>
+              <option value="swing">swing</option>
+              <option value="tada">tada</option>
+              <option value="wobble">wobble</option>
+              <option value="jello">jello</option>
+              <option value="heartBeat">heartBeat</option>
+            </optgroup>
+
+            <optgroup label="Bouncing Entrances">
+              <option value="bounceIn">bounceIn</option>
+              <option value="bounceInDown">bounceInDown</option>
+              <option value="bounceInLeft">bounceInLeft</option>
+              <option value="bounceInRight">bounceInRight</option>
+              <option value="bounceInUp">bounceInUp</option>
+            </optgroup>
+
+            <optgroup label="Bouncing Exits">
+              <option value="bounceOut">bounceOut</option>
+              <option value="bounceOutDown">bounceOutDown</option>
+              <option value="bounceOutLeft">bounceOutLeft</option>
+              <option value="bounceOutRight">bounceOutRight</option>
+              <option value="bounceOutUp">bounceOutUp</option>
+            </optgroup>
+
+            <optgroup label="Fading Entrances">
+              <option value="fadeIn">fadeIn</option>
+              <option value="fadeInDown">fadeInDown</option>
+              <option value="fadeInDownBig">fadeInDownBig</option>
+              <option value="fadeInLeft">fadeInLeft</option>
+              <option value="fadeInLeftBig">fadeInLeftBig</option>
+              <option value="fadeInRight">fadeInRight</option>
+              <option value="fadeInRightBig">fadeInRightBig</option>
+              <option value="fadeInUp">fadeInUp</option>
+              <option value="fadeInUpBig">fadeInUpBig</option>
+            </optgroup>
+
+            <optgroup label="Fading Exits">
+              <option value="fadeOut">fadeOut</option>
+              <option value="fadeOutDown">fadeOutDown</option>
+              <option value="fadeOutDownBig">fadeOutDownBig</option>
+              <option value="fadeOutLeft">fadeOutLeft</option>
+              <option value="fadeOutLeftBig">fadeOutLeftBig</option>
+              <option value="fadeOutRight">fadeOutRight</option>
+              <option value="fadeOutRightBig">fadeOutRightBig</option>
+              <option value="fadeOutUp">fadeOutUp</option>
+              <option value="fadeOutUpBig">fadeOutUpBig</option>
+            </optgroup>
+
+            <optgroup label="Flippers">
+              <option value="flip">flip</option>
+              <option value="flipInX">flipInX</option>
+              <option value="flipInY">flipInY</option>
+              <option value="flipOutX">flipOutX</option>
+              <option value="flipOutY">flipOutY</option>
+            </optgroup>
+
+            <optgroup label="Lightspeed">
+              <option value="lightSpeedIn">lightSpeedIn</option>
+              <option value="lightSpeedOut">lightSpeedOut</option>
+            </optgroup>
+
+            <optgroup label="Rotating Entrances">
+              <option value="rotateIn">rotateIn</option>
+              <option value="rotateInDownLeft">rotateInDownLeft</option>
+              <option value="rotateInDownRight">rotateInDownRight</option>
+              <option value="rotateInUpLeft">rotateInUpLeft</option>
+              <option value="rotateInUpRight">rotateInUpRight</option>
+            </optgroup>
+
+            <optgroup label="Rotating Exits">
+              <option value="rotateOut">rotateOut</option>
+              <option value="rotateOutDownLeft">rotateOutDownLeft</option>
+              <option value="rotateOutDownRight">rotateOutDownRight</option>
+              <option value="rotateOutUpLeft">rotateOutUpLeft</option>
+              <option value="rotateOutUpRight">rotateOutUpRight</option>
+            </optgroup>
+
+            <optgroup label="Sliding Entrances">
+              <option value="slideInUp">slideInUp</option>
+              <option value="slideInDown">slideInDown</option>
+              <option value="slideInLeft">slideInLeft</option>
+              <option value="slideInRight">slideInRight</option>
+
+            </optgroup>
+            <optgroup label="Sliding Exits">
+              <option value="slideOutUp">slideOutUp</option>
+              <option value="slideOutDown">slideOutDown</option>
+              <option value="slideOutLeft">slideOutLeft</option>
+              <option value="slideOutRight">slideOutRight</option>
+              
+            </optgroup>
+            
+            <optgroup label="Zoom Entrances">
+              <option value="zoomIn">zoomIn</option>
+              <option value="zoomInDown">zoomInDown</option>
+              <option value="zoomInLeft">zoomInLeft</option>
+              <option value="zoomInRight">zoomInRight</option>
+              <option value="zoomInUp">zoomInUp</option>
+            </optgroup>
+            
+            <optgroup label="Zoom Exits">
+              <option value="zoomOut">zoomOut</option>
+              <option value="zoomOutDown">zoomOutDown</option>
+              <option value="zoomOutLeft">zoomOutLeft</option>
+              <option value="zoomOutRight">zoomOutRight</option>
+              <option value="zoomOutUp">zoomOutUp</option>
+            </optgroup>
+
+            <optgroup label="Specials">
+              <option value="hinge">hinge</option>
+              <option value="jackInTheBox">jackInTheBox</option>
+              <option value="rollIn">rollIn</option>
+              <option value="rollOut">rollOut</option>
+            </optgroup>
+          </select>
+
+          <button class="butt js--triggerAnimation">Animate it</button>
+        </form>
+       
+      </div>
+    </main><!-- /.site__content -->
+<script>
+  function testAnim(x) {
+    $('#animationSandbox').removeClass().addClass(x + ' animated').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+      $(this).removeClass();
+    });
+  };
+
+  $(document).ready(function(){
+    $('.js--triggerAnimation').click(function(e){
+      e.preventDefault();
+      var anim = $('.js--animations').val();
+      testAnim(anim);
+    });
+
+    $('.js--animations').change(function(){
+      var anim = $(this).val();
+      testAnim(anim);
+    });
+  });
+
+</script>
+		<div class="row">
+			<div class="col-lg-12">
+				<button class="btn btn-primary" onclick="alerta1()">alerta1 </button>
+				<pre class="code-sample">
+			<code>Swal.fire(
+			  'Good job!',
+			  'You clicked the button!',
+			  'success'
+			)</code></pre>
+			</div>
+		</div>
+
+
+  <ul class="examples">
+
+    <li class="message" id="message-example">
+      <div class="ui">
+        <p>A basic message</p>
+        <button class="btn btn-primary" onclick="alerta2()">alerta2</button>
+      </div>
+      <pre class="code-sample"><code>Swal.fire('Any fool can use a computer')</code></pre>
+    </li>
+
+    <li class="title-text" id="title-text-example">
+      <div class="ui">
+        <p>A title with a text under</p>
+        <button class="btn btn-primary" onclick="alerta3()">alerta3</button>
+      </div>
+      <pre class="code-sample">
+        <code>Swal.fire(
+          'The Internet?',
+          'That thing is still around?',
+          'question'
+        )</code>
+      </pre>
+    </li>
+
+    <li class="error" id="error-example">
+      <div class="ui">
+        <p>A modal with a title, an error icon, a text, and a footer</p>
+        <button class="btn btn-primary" onclick="alerta4()">alerta4</button>
+      </div>
+      <pre class="code-sample">
+      <code>Swal.fire({
+        type: 'error',
+        title: 'Oops...',
+        text: 'Something went wrong!',
+        footer: '&lt;a href>Why do I have this issue?&lt;/a>'
+      })</code></pre>
+    </li>
+
+    <li id="long-text">
+      <div class="ui">
+        <p>A modal window with a long content inside:</p>
+        <button  class="btn btn-primary" onclick="alerta5()">alerta5</button>
+      </div>
+      <pre class="code-sample">
+      <code>Swal.fire({
+        imageUrl: 'https://placeholder.pics/svg/300x1500',
+        imageHeight: 1500,
+        imageAlt: 'A tall image'
+      })</code></pre>
+    </li>
+
+    <li class="html" id="custom-html">
+      <div class="ui">
+        <p>Custom HTML description and buttons with ARIA labels</p>
+        <button  class="btn btn-primary" onclick="alerta6()">alerta6</button>
+      </div>
+      <pre class="code-sample" >
+      <code class="lang-javascript">Swal.fire({
+        title: '&lt;strong&gt;HTML &lt;u&gt;example&lt;/u&gt;&lt;/strong&gt;',
+        type: 'info',
+        html:
+          'You can use &lt;b&gt;bold text&lt;/b&gt;, ' +
+          '&lt;a href="//github.com"&gt;links&lt;/a&gt; ' +
+          'and other HTML tags',
+        showCloseButton: true,
+        showCancelButton: true,
+        focusConfirm: false,
+        confirmButtonText:
+          '&lt;i class="fa fa-thumbs-up"&gt;&lt;/i&gt; Great!',
+        confirmButtonAriaLabel: 'Thumbs up, great!',
+        cancelButtonText:
+          '&lt;i class="fa fa-thumbs-down"&gt;&lt;/i&gt;',
+        cancelButtonAriaLabel: 'Thumbs down',
+      })</code></pre>
+    </li>
+
+    <li id="position">
+      <div class="ui">
+        <p>A custom positioned dialog</p>
+        <button  class="btn btn-primary" onclick="alerta7()">alerta7</button>
+      </div>
+      <pre class="code-sample">
+      <code>Swal.fire({
+        position: 'top-end',
+        type: 'success',
+        title: 'Your work has been saved',
+        showConfirmButton: false,
+        timer: 1500
+      })</code></pre>
+    </li>
+
+    <li id="custom-animation">
+      <div class="ui">
+        <p>Custom animation <span class="nowrap"></span></p>
+        <button  class="btn btn-primary" onclick="alerta8()">alerta8</button>
+      </div>
+      <pre class="code-sample">
+      <code>Swal.fire({
+        title: 'Custom animation with Animate.css',
+        animation: false,
+        customClass: {
+          popup: 'animated tada'
+        }
+      })</code></pre>
+    </li>
+
+    <li class="warning confirm" id="confirm-dialog">
+      <div class="ui">
+        <p>A confirm dialog, with a function attached to the "Confirm"-button...</p>
+        <button class="btn btn-primary" onclick="alerta9()">alerta9</button>
+      </div>
+      <pre class="code-sample">
+      <code>Swal.fire({
+        title: 'Are you sure?',
+        text: "You won't be able to revert this!",
+        type: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#d33',
+        confirmButtonText: 'Yes, delete it!'
+      }).then((result) => {
+        if (result.value) {
+          Swal.fire(
+            'Deleted!',
+            'Your file has been deleted.',
+            'success'
+          )
+        }
+      })</code></pre>
+    </li>
+
+    <li class="bootstrap-buttons" id="dismiss-handle">
+      <div class="ui">
+        <p>... and by passing a parameter, you can execute something else for "Cancel".</p>
+        <button  class="btn btn-primary" onclick="alerta10()">alerta10</button>
+      </div>
+      <pre class="code-sample" data-codepen-css-external="http://sweetalert2.github.io/styles/bootstrap4-buttons.css">
+        <code>const swalWithBootstrapButtons = Swal.mixin({
+          customClass: {
+            confirmButton: 'btn btn-success',
+            cancelButton: 'btn btn-danger'
+          },
+          buttonsStyling: false,
+        })
+
+        swalWithBootstrapButtons.fire({
+          title: 'Are you sure?',
+          text: "You won't be able to revert this!",
+          type: 'warning',
+          showCancelButton: true,
+          confirmButtonText: 'Yes, delete it!',
+          cancelButtonText: 'No, cancel!',
+          reverseButtons: true
+        }).then((result) => {
+          if (result.value) {
+            swalWithBootstrapButtons.fire(
+              'Deleted!',
+              'Your file has been deleted.',
+              'success'
+            )
+          } else if (
+            // <a href="#handling-dismissals" tabindex="-1">Read more about handling dismissals</a>
+            result.dismiss === Swal.DismissReason.cancel
+          ) {
+            swalWithBootstrapButtons.fire(
+              'Cancelled',
+              'Your imaginary file is safe :)',
+              'error'
+            )
+          }
+        })</code></pre>
+    </li>
+
+    <li class="custom-image" id="custom-image-example">
+      <div class="ui">
+        <p>A message with a custom image and CSS animation disabled</p>
+        <button class="btn btn-primary" onclick="alerta11()">alerta11</button>
+      </div>
+      <pre class="code-sample">
+      <code>Swal.fire({
+        title: 'Sweet!',
+        text: 'Modal with a custom image.',
+        imageUrl: 'https://unsplash.it/400/200',
+        imageWidth: 400,
+        imageHeight: 200,
+        imageAlt: 'Custom image',
+        animation: false
+      })</code></pre>
+    </li>
+
+    <li class="custom-width-padding-background" id="custom-width-padding-background">
+      <div class="ui">
+        <p>A message with custom width, padding, background and animated Nyan Cat</p>
+        <button  class="btn btn-primary" onclick="alerta12()">alerta12</button>
+      </div>
+      <pre class="code-sample">
+      <code>Swal.fire({
+        title: 'Custom width, padding, background.',
+        width: 600,
+        padding: '3em',
+        background: '#fff url(/images/trees.png)',
+        backdrop: `
+          rgba(0,0,123,0.4)
+          url("/images/nyan-cat.gif")
+          center left
+          no-repeat
+        `
+      })</code></pre>
+    </li>
+
+    <li class="timer" id="timer-example">
+      <div class="ui">
+        <p>A message with auto close timer</p>
+        <button  class="btn btn-primary" onclick="alerta13()">alerta13</button>
+      </div>
+      <pre class="code-sample">
+      <code>let timerInterval
+      Swal.fire({
+        title: 'Auto close alert!',
+        html: 'I will close in &lt;strong>&lt;/strong> seconds.',
+        timer: 2000,
+        onBeforeOpen: () => {
+          Swal.showLoading()
+          timerInterval = setInterval(() => {
+            Swal.getContent().querySelector('strong')
+              .textContent = Swal.getTimerLeft()
+          }, 100)
+        },
+        onClose: () => {
+          clearInterval(timerInterval)
+        }
+      }).then((result) => {
+        if (
+          result.dismiss === Swal.DismissReason.timer
+        ) {
+          console.log('I was closed by the timer')
+        }
+      })</code></pre>
+    </li>
+
+    <li class="rtl" id="rtl">
+      <div class="ui">
+        <p>Right-to-left support for Arabic, Hebrew, and other RTL languages</p>
+        <button class="btn btn-primary" onclick="alerta14()">alerta14</button>
+      </div>
+      <pre class="code-sample" data-codepen-html='<body dir="rtl"></body>'>
+      <code>Swal.fire({
+        title: 'هل تريد الاستمرار؟',
+        type: 'question',
+        customClass: {
+          icon: 'swal2-arabic-question-mark'
+        },
+        confirmButtonText:  'نعم',
+        cancelButtonText:  'لا',
+        showCancelButton: true,
+        showCloseButton: true
+      })</code></pre>
+    </li>
+
+    <li class="ajax-request" id="ajax-request">
+      <div class="ui">
+        <p>AJAX request example</p>
+        <button class="btn btn-primary" onclick="alerta15()">alerta15</button>
+      </div>
+      <pre class="code-sample">
+      <code>Swal.fire({
+        title: 'Submit your Github username',
+        input: 'text',
+        inputAttributes: {
+          autocapitalize: 'off'
+        },
+        showCancelButton: true,
+        confirmButtonText: 'Look up',
+        showLoaderOnConfirm: true,
+        preConfirm: (login) => {
+          return fetch(`//api.github.com/users/${login}`)
+            .then(response => {
+              if (!response.ok) {
+                throw new Error(response.statusText)
+              }
+              return response.json()
+            })
+            .catch(error => {
+              Swal.showValidationMessage(
+                `Request failed: ${error}`
+              )
+            })
+        },
+        allowOutsideClick: () => !Swal.isLoading()
+      }).then((result) => {
+        if (result.value) {
+          Swal.fire({
+            title: `${result.value.login}'s avatar`,
+            imageUrl: result.value.avatar_url
+          })
+        }
+      })</code></pre>
+    </li>
+
+    <li class="chaining-modals" id="chaining-modals">
+      <div class="ui">
+        <p>Chaining modals (queue) example</p>
+        <button class="btn btn-primary" onclick="alerta16()">alerta16</button>
+      </div>
+      <pre class="code-sample">
+      <code>Swal.mixin({
+        input: 'text',
+        confirmButtonText: 'Next &amp;rarr;',
+        showCancelButton: true,
+        progressSteps: ['1', '2', '3']
+      }).queue([
+        {
+          title: 'Question 1',
+          text: 'Chaining swal2 modals is easy'
+        },
+        'Question 2',
+        'Question 3'
+      ]).then((result) => {
+        if (result.value) {
+          Swal.fire({
+            title: 'All done!',
+            html:
+              'Your answers: &lt;pre&gt;&lt;code&gt;' +
+                JSON.stringify(result.value) +
+              '&lt;/code&gt;&lt;/pre&gt;',
+            confirmButtonText: 'Lovely!'
+          })
+        }
+      })</code></pre>
+    </li>
+
+    <li class="dynamic-queue" id="dynamic-queue">
+      <div class="ui">
+        <p>Dynamic queue example</p>
+        <button class="btn btn-primary" onclick="alerta17()">alerta17</button>
+      </div>
+      <pre class="code-sample">
+      <code>const ipAPI = 'https://api.ipify.org?format=json'
+
+      Swal.queue([{
+        title: 'Your public IP',
+        confirmButtonText: 'Show my public IP',
+        text:
+          'Your public IP will be received ' +
+          'via AJAX request',
+        showLoaderOnConfirm: true,
+        preConfirm: () => {
+          return fetch(ipAPI)
+            .then(response => response.json())
+            .then(data => Swal.insertQueueStep(data.ip))
+            .catch(() => {
+              Swal.insertQueueStep({
+                type: 'error',
+                title: 'Unable to get your public IP'
+              })
+            })
+        }
+      }])</code></pre>
+    </li>
+    <li class="dynamic-queue" id="dynamic-queue">
+      <div class="ui">
+        <p>Dynamic queue example</p>
+        <button class="btn btn-primary" onclick="alerta18()">alerta18</button>
+      </div>
+      <pre class="code-sample">
+      <code>Swal.fire(
+        'The Internet?',
+        'That thing is still around?',
+        'question'
+      )</code></pre>
+    </li>
+    <li class="dynamic-queue" id="dynamic-queue">
+      <div class="ui">
+        <p>Dynamic queue example</p>
+        <button class="btn btn-primary" onclick="alerta19()">alerta19</button>
+      </div>
+      <pre class="code-sample">
+      <code>Swal.fire({
+        type: 'error',
+        title: 'Oops...',
+        text: 'Something went wrong!',
+        footer: '<a href>Why do I have this issue?</a>'
+      })</code></pre>
+    </li>
+
+    <li class="dynamic-queue" id="dynamic-queue">
+      <div class="ui">
+        <p>Dynamic queue example</p>
+        <button class="btn btn-primary" onclick="alerta20()">alerta20</button>
+      </div>
+      <pre class="code-sample">
+      <code>Swal.fire({
+        imageUrl: 'https://placeholder.pics/svg/300x1500',
+        imageHeight: 1500,
+        imageAlt: 'A tall image'
+      })</code></pre>
+    </li>
+
+    <li class="dynamic-queue" id="dynamic-queue">
+      <div class="ui">
+        <p>Dynamic queue example</p>
+        <button class="btn btn-primary" onclick="alerta21()">alerta21</button>
+      </div>
+      <pre class="code-sample">
+      <code>Swal.fire({
+      title: '<strong>HTML <u>example</u></strong>',
+      type: 'info',
+      html:
+        'You can use <b>bold text</b>, ' +
+        '<a href="//github.com">links</a> ' +
+        'and other HTML tags',
+      showCloseButton: true,
+      showCancelButton: true,
+      focusConfirm: false,
+      confirmButtonText:
+        '<i class="fa fa-thumbs-up"></i> Great!',
+      confirmButtonAriaLabel: 'Thumbs up, great!',
+      cancelButtonText:
+        '<i class="fa fa-thumbs-down"></i>',
+      cancelButtonAriaLabel: 'Thumbs down',
+    })</code></pre>
+    </li>
+
+    <li class="dynamic-queue" id="dynamic-queue">
+      <div class="ui">
+        <p>Dynamic queue example</p>
+        <button class="btn btn-primary" onclick="alerta22()">alerta22</button>
+      </div>
+      <pre class="code-sample">
+      <code>Swal.fire({
+        title: 'Are you sure?',
+        text: "You won't be able to revert this!",
+        type: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#d33',
+        confirmButtonText: 'Yes, delete it!'
+      }).then((result) => {
+        if (result.value) {
+          Swal.fire(
+            'Deleted!',
+            'Your file has been deleted.',
+            'success'
+          )
+        }
+      })</code></pre>
+    </li>
+
+    <li class="dynamic-queue" id="dynamic-queue">
+      <div class="ui">
+        <p>Dynamic queue example</p>
+        <button class="btn btn-primary" onclick="alerta23()">alerta23</button>
+      </div>
+      <pre class="code-sample">
+      <code>const swalWithBootstrapButtons = Swal.mixin({
+        customClass: {
+          confirmButton: 'btn btn-success',
+          cancelButton: 'btn btn-danger'
+        },
+        buttonsStyling: false,
+      })
+
+      swalWithBootstrapButtons.fire({
+        title: 'Are you sure?',
+        text: "You won't be able to revert this!",
+        type: 'warning',
+        showCancelButton: true,
+        confirmButtonText: 'Yes, delete it!',
+        cancelButtonText: 'No, cancel!',
+        reverseButtons: true
+      }).then((result) => {
+        if (result.value) {
+          swalWithBootstrapButtons.fire(
+            'Deleted!',
+            'Your file has been deleted.',
+            'success'
+          )
+        } else if (
+          // Read more about handling dismissals
+          result.dismiss === Swal.DismissReason.cancel
+        ) {
+          swalWithBootstrapButtons.fire(
+            'Cancelled',
+            'Your imaginary file is safe :)',
+            'error'
+          )
+        }
+      })</code></pre>
+    </li>
+
+    <li class="dynamic-queue" id="dynamic-queue">
+      <div class="ui">
+        <p>Dynamic queue example</p>
+        <button class="btn btn-primary" onclick="alerta24()">alerta24</button>
+      </div>
+      <pre class="code-sample">
+      <code>let timerInterval
+      Swal.fire({
+        title: 'Auto close alert!',
+        html: 'I will close in <strong></strong> seconds.',
+        timer: 2000,
+        onBeforeOpen: () => {
+          Swal.showLoading()
+          timerInterval = setInterval(() => {
+            Swal.getContent().querySelector('strong')
+              .textContent = Swal.getTimerLeft()
+          }, 100)
+        },
+        onClose: () => {
+          clearInterval(timerInterval)
+        }
+      }).then((result) => {
+        if (
+          // Read more about handling dismissals
+          result.dismiss === Swal.DismissReason.timer
+        ) {
+          console.log('I was closed by the timer')
+        }
+      })</code></pre>
+    </li>
+
+
+    <li class="dynamic-queue" id="dynamic-queue">
+      <div class="ui">
+        <p>Dynamic queue example</p>
+        <button class="btn btn-primary" onclick="alerta25()">alerta25</button>
+      </div>
+      <pre class="code-sample">
+      <code>Swal.fire({
+        title: 'هل تريد الاستمرار؟',
+        type: 'question',
+        customClass: {
+          icon: 'swal2-arabic-question-mark'
+        },
+        confirmButtonText:  'نعم',
+        cancelButtonText:  'لا',
+        showCancelButton: true,
+        showCloseButton: true
+      })</code></pre>
+    </li>
+
+    <li class="dynamic-queue" id="dynamic-queue">
+      <div class="ui">
+        <p>Dynamic queue example</p>
+        <button class="btn btn-primary" onclick="alerta26()">alerta26</button>
+      </div>
+      <pre class="code-sample">
+      <code>Swal.fire({
+        title: 'Submit your Github username',
+        input: 'text',
+        inputAttributes: {
+          autocapitalize: 'off'
+        },
+        showCancelButton: true,
+        confirmButtonText: 'Look up',
+        showLoaderOnConfirm: true,
+        preConfirm: (login) => {
+          return fetch(`//api.github.com/users/${login}`)
+            .then(response => {
+              if (!response.ok) {
+                throw new Error(response.statusText)
+              }
+              return response.json()
+            })
+            .catch(error => {
+              Swal.showValidationMessage(
+                `Request failed: ${error}`
+              )
+            })
+        },
+        allowOutsideClick: () => !Swal.isLoading()
+      }).then((result) => {
+        if (result.value) {
+          Swal.fire({
+            title: `${result.value.login}'s avatar`,
+            imageUrl: result.value.avatar_url
+          })
+        }
+      })</code></pre>
+    </li>
+
+    <li class="dynamic-queue" id="dynamic-queue">
+      <div class="ui">
+        <p>Dynamic queue example</p>
+        <button class="btn btn-primary" onclick="alerta27()">alerta27</button>
+      </div>
+      <pre class="code-sample">
+      <code>Swal.fire({
+        title: 'Submit your Github username',
+        input: 'text',
+        inputAttributes: {
+          autocapitalize: 'off'
+        },
+        showCancelButton: true,
+        confirmButtonText: 'Look up',
+        showLoaderOnConfirm: true,
+        preConfirm: (login) => {
+          return fetch(`//api.github.com/users/${login}`)
+            .then(response => {
+              if (!response.ok) {
+                throw new Error(response.statusText)
+              }
+              return response.json()
+            })
+            .catch(error => {
+              Swal.showValidationMessage(
+                `Request failed: ${error}`
+              )
+            })
+        },
+        allowOutsideClick: () => !Swal.isLoading()
+      }).then((result) => {
+        if (result.value) {
+          Swal.fire({
+            title: `${result.value.login}'s avatar`,
+            imageUrl: result.value.avatar_url
+          })
+        }
+      })</code></pre>
+    </li>
+
+    <li class="dynamic-queue" id="dynamic-queue">
+      <div class="ui">
+        <p>Dynamic queue example</p>
+        <button class="btn btn-primary" onclick="alerta28()">alerta28</button>
+      </div>
+      <pre class="code-sample">
+      <code>Swal.mixin({
+        input: 'text',
+        confirmButtonText: 'Next &rarr;',
+        showCancelButton: true,
+        progressSteps: ['1', '2', '3']
+      }).queue([
+        {
+          title: 'Question 1',
+          text: 'Chaining swal2 modals is easy'
+        },
+        'Question 2',
+        'Question 3'
+      ]).then((result) => {
+        if (result.value) {
+          Swal.fire({
+            title: 'All done!',
+            html:
+              'Your answers: <pre><code>' +
+                JSON.stringify(result.value) +
+              '</code></pre>',
+            confirmButtonText: 'Lovely!'
+          })
+        }
+      })</code></pre>
+    </li>
+    <li class="dynamic-queue" id="dynamic-queue">
+      <div class="ui">
+        <p>Dynamic queue example</p>
+        <button class="btn btn-primary" onclick="alerta29()">alerta29</button>
+      </div>
+      <pre class="code-sample">
+      <code>let timerInterval
+        Swal.fire({
+          title: 'Auto close alert!',
+          html:
+            'I will close in <strong></strong> seconds.<br/><br/>' +
+            '<button id="increase" class="btn btn-warning">' +
+              'I need 5 more seconds!' +
+            '</button><br/>' +
+            '<button id="stop" class="btn btn-danger">' +
+              'Please stop the timer!!' +
+            '</button><br/>' +
+            '<button id="resume" class="btn btn-success" disabled>' +
+              'Phew... you can restart now!' +
+            '</button><br/>' +
+            '<button id="toggle" class="btn btn-primary">' +
+              'Toggle' +
+            '</button>',
+          timer: 10000,
+          onBeforeOpen: () => {
+            const content = Swal.getContent()
+            const $ = content.querySelector.bind(content)
+
+            const stop = $('#stop')
+            const resume = $('#resume')
+            const toggle = $('#toggle')
+            const increase = $('#increase')
+
+            Swal.showLoading()
+
+            function toggleButtons () {
+              stop.disabled = !Swal.isTimerRunning()
+              resume.disabled = Swal.isTimerRunning()
+            }
+
+            stop.addEventListener('click', () => {
+              Swal.stopTimer()
+              toggleButtons()
+            })
+
+            resume.addEventListener('click', () => {
+              Swal.resumeTimer()
+              toggleButtons()
+            })
+
+            toggle.addEventListener('click', () => {
+              Swal.toggleTimer()
+              toggleButtons()
+            })
+
+            increase.addEventListener('click', () => {
+              Swal.increaseTimer(5000)
+            })
+
+            timerInterval = setInterval(() => {
+              Swal.getContent().querySelector('strong')
+                .textContent = (Swal.getTimerLeft() / 1000)
+                  .toFixed(0)
+            }, 100)
+          },
+          onClose: () => {
+            clearInterval(timerInterval)
+          }
+        })</code></pre>
+    </li>
+
+    <li class="dynamic-queue" id="dynamic-queue">
+      <div class="ui">
+        <p>Dynamic queue example</p>
+        <button class="btn btn-primary" onclick="alerta30()">alerta30</button>
+      </div>
+      <pre class="code-sample">
+      <code>const Toast = Swal.mixin({
+          toast: true,
+          position: 'top-end',
+          showConfirmButton: false,
+          timer: 3000
+        });
+
+        Toast.fire({
+          type: 'success',
+          title: 'Signed in successfully'
+        })</code></pre>
+    </li>
+
+   <li class="dynamic-queue" id="dynamic-queue">
+      <div class="ui">
+        <p>Dynamic queue example</p>
+        <button class="btn btn-primary" onclick="alerta31()">alerta31</button>
+      </div>
+      <pre class="code-sample">
+      <code>dddddddddddddddd</code></pre>
+    </li>
+
+  <!--    <li class="dynamic-queue" id="dynamic-queue">
+      <div class="ui">
+        <p>Dynamic queue example</p>
+        <button class="btn btn-primary" onclick="alerta32()">alerta32</button>
+      </div>
+      <pre class="code-sample">
+      <code>const {value: email} = await Swal.fire({
+        title: 'Input email address',
+        input: 'email',
+        inputPlaceholder: 'Enter your email address'
+      })
+
+      if (email) {
+        Swal.fire('Entered email: ' + email)
+      }</code></pre>
+    </li>
+    <li class="dynamic-queue" id="dynamic-queue">
+      <div class="ui">
+        <p>Dynamic queue example</p>
+        <button class="btn btn-primary" onclick="alerta33()">alerta33</button>
+      </div>
+      <pre class="code-sample">
+      <code>const {value: url} = await Swal.fire({
+          input: 'url',
+          inputPlaceholder: 'Enter the URL'
+        })
+
+        if (url) {
+          Swal.fire('Entered URL: ' + url)
+        }</code></pre>
+    </li>
+
+    <li class="dynamic-queue" id="dynamic-queue">
+      <div class="ui">
+        <p>Dynamic queue example</p>
+        <button class="btn btn-primary" onclick="alerta34()">alerta34</button>
+      </div>
+      <pre class="code-sample">
+      <code>const {value: password} = await Swal.fire({
+        title: 'Enter your password',
+        input: 'password',
+        inputPlaceholder: 'Enter your password',
+        inputAttributes: {
+          maxlength: 10,
+          autocapitalize: 'off',
+          autocorrect: 'off'
+        }
+      })
+
+      if (password) {
+        Swal.fire('Entered password: ' + password)
+      }</code></pre>
+    </li> -->
+
+    <!-- <li class="dynamic-queue" id="dynamic-queue">
+      <div class="ui">
+        <p>Dynamic queue example</p>
+        <button class="btn btn-primary" onclick="alerta35()">alerta35</button>
+      </div>
+      <pre class="code-sample">
+      <code>const {value: text} = await Swal.fire({
+        input: 'textarea',
+        inputPlaceholder: 'Type your message here...',
+        showCancelButton: true
+      })
+
+      if (text) {
+        Swal.fire(text)
+      }</code></pre>
+    </li>
+
+    <li class="dynamic-queue" id="dynamic-queue">
+      <div class="ui">
+        <p>Dynamic queue example</p>
+        <button class="btn btn-primary" onclick="alerta36()">alerta36</button>
+      </div>
+      <pre class="code-sample">
+      <code>const {value: fruit} = await Swal.fire({
+        title: 'Select field validation',
+        input: 'select',
+        inputOptions: {
+          'apples': 'Apples',
+          'bananas': 'Bananas',
+          'grapes': 'Grapes',
+          'oranges': 'Oranges'
+        },
+        inputPlaceholder: 'Select a fruit',
+        showCancelButton: true,
+        inputValidator: (value) => {
+          return new Promise((resolve) => {
+            if (value === 'oranges') {
+              resolve()
+            } else {
+              resolve('You need to select oranges :)')
+            }
+          })
+        }
+      })
+
+      if (fruit) {
+        Swal.fire('You selected: ' + fruit)
+      }</code></pre>
+    </li>
+ -->
+
+
+  </ul>
+
+
+  <table class="popup-types" aria-hidden="true">
+    <tbody><tr>
+      <td><strong>success</strong></td>
+      <td>
+        <div class="swal2-icon swal2-success">
+          <div class="swal2-success-circular-line-left"></div>
+          <span class="swal2-success-line-tip"></span> <span class="swal2-success-line-long"></span>
+          <div class="swal2-success-ring"></div> <div class="swal2-success-fix"></div>
+          <div class="swal2-success-circular-line-right"></div>
+        </div>
+      </td>
+      <td><button class="btn btn-success" aria-label="Try me! Example: success modal"  onclick="alerta18()">alerta18</button></td>
+    </tr>
+    <tr>
+      <td><strong>error</strong></td>
+      <td>
+        <div class="swal2-icon swal2-error">
+         <span class="swal2-x-mark"><span class="swal2-x-mark-line-left"></span><span class="swal2-x-mark-line-right"></span></span>
+        </div>
+      </td>
+      <td><button class="type-error" aria-label="Try me! Example: error modal">Try me!</button></td>
+    </tr>
+    <tr>
+      <td><strong>warning</strong></td>
+      <td><div class="swal2-icon swal2-warning"></div></td>
+      <td><button class="type-warning" aria-label="Try me! Example: warning modal">Try me!</button></td>
+    </tr>
+    <tr>
+      <td><strong>info</strong></td>
+      <td><div class="swal2-icon swal2-info"></div></td>
+      <td><button class="type-info" aria-label="Try me! Example: info modal">Try me!</button></td>
+    </tr>
+    <tr>
+      <td><strong>question</strong></td>
+      <td><div class="swal2-icon swal2-question"></div></td>
+      <td><button class="type-question" aria-label="Try me! Example: question modal">Try me!</button></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        Note: for Arabic and Persian languages there's the built-in class <strong class="nowrap">swal2-arabic-question-mark</strong> to flip the question mark icon, see <a href="#rtl">the RTL example</a>.
+      </td>
+    </tr>
+  </tbody></table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</div>
+</body>
+</html>
